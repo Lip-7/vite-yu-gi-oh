@@ -1,7 +1,7 @@
 <template>
-    <div class="wrapper p-4">
-        <div class="cardListHeader mb-4">
-            <h3>Found tot cards</h3>
+    <div class="wrapper p-4 bg-white">
+        <div class="cardListHeader mb-4 bg-dark p-3">
+            <h3 class=" text-white">Found tot cards</h3>
         </div>
         <div class="cardList">
             <div class="row" v-if="store.cardsList">

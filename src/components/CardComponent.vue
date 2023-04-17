@@ -3,8 +3,8 @@
         <div class="card">
             <img :src="card.card_images[0].image_url" class="card-img-top" alt="...">
             <!-- <img src="http://" class="card-img-top" alt="..."> -->
-            <div class="card-body">
-                <h5 class="card-title">{{card.name}}</h5>
+            <div class="card-body bg-dark">
+                <h5 class="card-title text-white">{{card.name}}</h5>
                 <!-- <a href="#" class="btn btn-primary">Buy it!</a> -->
             </div>
         </div>

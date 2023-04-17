@@ -1,5 +1,5 @@
 <template>
-    <select name="filter" id="filter" class="form-select">
+    <select name="filter" id="filter" class="form-select mb-4">
         <!-- <option :value="'prova'" v-for="type in typeList">{{'prova'}}</option> -->
         <option value="prova">prova</option>
         <option value="prova">prova</option>
