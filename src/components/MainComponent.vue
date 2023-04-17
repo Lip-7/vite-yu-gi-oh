@@ -2,12 +2,13 @@
     <main>
         <div class="container py-4">
             <SelectComponent/>
-            
+            <CardList/>
         </div>
     </main>
 </template>
   
 <script>
+import CardList from './CardList.vue';
 import SelectComponent from './SelectComponent.vue';
 export default {
     name: 'MainComponent',
@@ -21,6 +22,7 @@ export default {
     },
     components: {
         SelectComponent,
+        CardList,
     },
     mounted() {
 

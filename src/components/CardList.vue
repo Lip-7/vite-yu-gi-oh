@@ -1,31 +1,31 @@
 <template>
     <div class="wrapper p-4">
-        <div class="cardListHeader">
-            <h3>Fount tot cards</h3>
+        <div class="cardListHeader mb-4">
+            <h3>Found tot cards</h3>
         </div>
         <div class="cardList">
             <div class="row">
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                    
-                </div>
+                <CardComponent v-for="card in store.cardsList" :card="card"/>
             </div>
         </div>
     </div>
 </template>
   
 <script>
+import { store } from '../data/store';
+import CardComponent from './CardComponent.vue';
 export default {
-    name: 'CardComponent',
+    name: 'CardList',
     data() {
         return {
-
+            store,
         }
     },
     methods: {
 
     },
     components: {
-
+        CardComponent,
     },
     mounted() {
 
