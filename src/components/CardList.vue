@@ -4,7 +4,7 @@
             <h3>Found tot cards</h3>
         </div>
         <div class="cardList">
-            <div class="row">
+            <div class="row" v-if="store.cardsList">
                 <CardComponent v-for="card in store.cardsList" :card="card"/>
             </div>
         </div>
