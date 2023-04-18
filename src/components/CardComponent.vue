@@ -6,7 +6,7 @@
             <div class="card-body bg-dark">
                 <h5 class="card-title text-white">{{card.name}}</h5>
                 <!-- <a href="#" class="btn btn-primary">Buy it!</a> -->
-                <h6 v-if="card.archetype" class="text-white">{{ card.archetype }}</h6>
+                <h6 v-if="card.archetype" class="text-white"><em>{{ card.archetype }}</em></h6>
             </div>
         </div>
     </div>
