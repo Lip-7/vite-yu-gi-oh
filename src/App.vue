@@ -32,7 +32,7 @@ export default {
     FooterComponent
   },
   mounted() {
-    store.endpoint = 'cardinfo.php?num=40&offset=0'
+    store.endpoint = '?num=40&offset=0'
     this.getCards()
   }
 }
